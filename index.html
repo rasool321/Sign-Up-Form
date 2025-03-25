@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Straw Hat Pirates</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="sidebar">
+            <img src="zoro.png" alt="Sign Up Image">
+
+            <div class="overlay">
+                <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zm0 12l-10-5 10 5 10-5v7l-10 5z"/>
+                    </svg>
+                    <span class="logo-text">One Piece</span>
+                </div>
+            </div>
+        </div>
+        <div class="signup-form">
+            <h1>Join the Crew</h1>
+            <form>
+                <div class="input-group">
+                    <input type="text" id="pirate-name" placeholder=" " required>
+                    <label for="pirate-name">Pirate Name</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder=" " required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" placeholder=" " required>
+                    <label for="password">Password</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="confirm-password" placeholder=" " required>
+                    <label for="confirm-password">Confirm Password</label>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="submit-btn">Set Sail</button>
+                </div>
+            </form>
+            <div class="form-footer">
+                <p>Already a crew member? <a href="#" style="color: var(--secondary-color);">Log in</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
